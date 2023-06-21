@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+
+/* Firefox */
+* {
+    scrollbar-width:thin;
+    scrollbar-color: gray black; 
+    /* scroll-behavior: smooth; */
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: indigo;
+    border-radius: 14px;
+    border: 3px solid black;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
